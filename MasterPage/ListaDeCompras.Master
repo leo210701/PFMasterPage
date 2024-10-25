@@ -11,7 +11,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1>AQUI VAMOS A TRABAJAR LA MASTERPAGE XD</h1>
+            <h1>AQUI VAMOS A TRABAJAR LA MASTERPAGE  cambios XD</h1>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
