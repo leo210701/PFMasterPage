@@ -13,7 +13,7 @@
 
 
 	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-
+<!--===============================================================================================-->
 
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -30,8 +30,8 @@
 				<form class="login100-form validate-form p-b-33 p-t-5"  runat="server">
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="User name">
-					<%--	<asp:TextBox CssClass="input100" type="text" Font-Names="username" placeholder="User name" runat="server" />--%>
+						<%--<input class="input100" type="text" name="username" placeholder="User name">--%>
+						<asp:TextBox CssClass="input100" type="text" Font-Names="username" placeholder="User name" runat="server" />
 						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
 					</div>
 
@@ -45,7 +45,7 @@
 						<%--<button class="login100-form-btn">
 							Login
 						</button>--%>
-						<asp:Button CssClass="login100-form-btn" Text="login" runat="server" />
+						<asp:Button CssClass="login100-form-btn" Text="login" runat="server" onClick="Unnamed_Click"/>
 					</div>
 
 				</form>

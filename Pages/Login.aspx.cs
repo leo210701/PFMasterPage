@@ -13,5 +13,10 @@ namespace AppListaDeCompras
         {
 
         }
+
+        protected void Unnamed_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Index.aspx");
+        }
     }
 }
