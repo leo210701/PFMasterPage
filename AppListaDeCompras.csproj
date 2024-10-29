@@ -91,39 +91,8 @@
     <Content Include="Pages\images\bg-01.jpg" />
     <Content Include="Pages\images\icons\favicon.ico" />
     <Content Include="Pages\Index.aspx" />
-    <Content Include="Pages\js\main.js" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\ShoppingKart.aspx" />
-    <Content Include="Pages\vendor\animate\animate.css" />
-    <Content Include="Pages\vendor\animsition\css\animsition.css" />
-    <Content Include="Pages\vendor\animsition\css\animsition.min.css" />
-    <Content Include="Pages\vendor\animsition\js\animsition.js" />
-    <Content Include="Pages\vendor\animsition\js\animsition.min.js" />
-    <Content Include="Pages\vendor\bootstrap\css\bootstrap-grid.css" />
-    <Content Include="Pages\vendor\bootstrap\css\bootstrap-grid.min.css" />
-    <Content Include="Pages\vendor\bootstrap\css\bootstrap-reboot.css" />
-    <Content Include="Pages\vendor\bootstrap\css\bootstrap-reboot.min.css" />
-    <Content Include="Pages\vendor\bootstrap\css\bootstrap.css" />
-    <Content Include="Pages\vendor\bootstrap\css\bootstrap.min.css" />
-    <Content Include="Pages\vendor\bootstrap\js\bootstrap.js" />
-    <Content Include="Pages\vendor\bootstrap\js\bootstrap.min.js" />
-    <Content Include="Pages\vendor\bootstrap\js\popper.js" />
-    <Content Include="Pages\vendor\bootstrap\js\popper.min.js" />
-    <Content Include="Pages\vendor\bootstrap\js\tooltip.js" />
-    <Content Include="Pages\vendor\countdowntime\countdowntime.js" />
-    <Content Include="Pages\vendor\css-hamburgers\hamburgers.css" />
-    <Content Include="Pages\vendor\css-hamburgers\hamburgers.min.css" />
-    <Content Include="Pages\vendor\daterangepicker\daterangepicker.css" />
-    <Content Include="Pages\vendor\daterangepicker\daterangepicker.js" />
-    <Content Include="Pages\vendor\daterangepicker\moment.js" />
-    <Content Include="Pages\vendor\daterangepicker\moment.min.js" />
-    <Content Include="Pages\vendor\jquery\jquery-3.2.1.min.js" />
-    <Content Include="Pages\vendor\perfect-scrollbar\perfect-scrollbar.css" />
-    <Content Include="Pages\vendor\perfect-scrollbar\perfect-scrollbar.min.js" />
-    <Content Include="Pages\vendor\select2\select2.css" />
-    <Content Include="Pages\vendor\select2\select2.js" />
-    <Content Include="Pages\vendor\select2\select2.min.css" />
-    <Content Include="Pages\vendor\select2\select2.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -234,12 +203,6 @@
     <Content Include="Pages\fonts\ubuntu\Ubuntu-Medium.ttf" />
     <Content Include="Pages\fonts\ubuntu\Ubuntu-MediumItalic.ttf" />
     <Content Include="Pages\fonts\ubuntu\Ubuntu-Regular.ttf" />
-    <Content Include="Pages\vendor\bootstrap\css\bootstrap-grid.css.map" />
-    <Content Include="Pages\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
-    <Content Include="Pages\vendor\bootstrap\css\bootstrap-reboot.css.map" />
-    <Content Include="Pages\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
-    <Content Include="Pages\vendor\bootstrap\css\bootstrap.css.map" />
-    <Content Include="Pages\vendor\bootstrap\css\bootstrap.min.css.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
