@@ -31,13 +31,13 @@
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
 						<%--<input class="input100" type="text" name="username" placeholder="User name">--%>
-						<asp:TextBox CssClass="input100" type="text" Font-Names="username" placeholder="User name" runat="server" />
+						<asp:TextBox CssClass="input100" type="text" Font-Names="username" placeholder="User name" ID="UserName" runat="server" />
 						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
 				<%--		<input class="input100" type="password" name="pass" placeholder="Password">--%>
-						<asp:TextBox CssClass="input100" type="password" Font-Names="pass" placeholder="Password" runat="server" />
+						<asp:TextBox CssClass="input100" type="password" Font-Names="pass" placeholder="Password" ID="Password" runat="server" />
 						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
 					</div>
 
