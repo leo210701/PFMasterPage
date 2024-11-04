@@ -12,6 +12,7 @@ using System.Data.Sql;
 using System.Web.Services.Description;
 
 
+
 namespace AppListaDeCompras
 {
     public partial class Login : System.Web.UI.Page
@@ -24,32 +25,34 @@ namespace AppListaDeCompras
 
         protected void Unnamed_Click(object sender, EventArgs e)
         {
-
+            try
+            {
                 SqlConnection sqlConnection = new SqlConnection();
-                sqlConnection.ConnectionString = "Server = DESKTOP-16LA907; Database = datosDeLabanderia; Trusted_Connection = True;";
+                sqlConnection.ConnectionString = "Server = DESKTOP-16LA907; Database = AppListaDeComprasDB; Trusted_Connection = True;";
                 sqlConnection.Open();
 
 
 
-                /////////
+                ///////
                 SqlCommand sqlCommand = new SqlCommand();
                 sqlCommand.Connection = sqlConnection;
                 sqlCommand.CommandType = CommandType.Text;
                 sqlCommand.CommandText =
                       "SELECT [USERS_NAME], " +
-                           "  [PASSWORDS] " +
-                      "FROM[dbo].[USERS] " +
-                     "WHERE     " +
-                           "   [USERS_NAME] = '" + UserName.Text + "' AND " +
-                           "   [PASSWORDS] = '" + Password.Text + "' ";
+                           "[PASSWORDS] " +
+                      "FROM [dbo].[USERS] " +
+                     "WHERE " +
+                           "   [USERS_NAME] = '" + UserName.Text + "' AND" +
+                           "   [PASSWORDS] = '" + Password.Text + "'";
 
-                //letura
+
+         
                 SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
 
                 if (sqlDataReader.HasRows)
                 {
 
-                    Response.Redirect("2022-0242.html");
+                    Response.Redirect("Index.aspx");
                     //MessageBox.Show("Datos Correctos");
                     //return;
                 }
@@ -59,6 +62,15 @@ namespace AppListaDeCompras
                     //MessageBox.Show("Datos invalido porfavor introdusca de nuebo");
                     //return;
                 }
+
+
+            } catch (Exception ex)
+            {
+                
+                Response.Write(ex.Message);
+            }
+
+          
 
 
         }
